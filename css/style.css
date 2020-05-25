@@ -1,0 +1,33 @@
+/* Inspired by https://codepen.io/kymarkak/pen/mWdxro */
+
+body {
+  background: gray;
+}
+
+.logo {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 256px;
+  height: 256px;
+}
+
+.javascript {
+  background: #fadf59;
+  background: -webkit-gradient(linear, top, bottom, color-stop(0%, #fadb3d), color-stop(100%, #fadf59));
+  background: -webkit-linear-gradient(top, #fadb3d 0%, #fadf59 100%);
+  background: -o-linear-gradient(top, #fadb3d 0%, #fadf59 100%);
+  background: linear-gradient(top, #fadb3d 0%, #fadf59 100%);
+}
+
+.javascript::before {
+  content: 'js';
+  position: absolute;
+  right: 10%;
+  bottom: -5%;
+  color: #000;
+  font-size: 155px;
+  font-weight: bold;
+  font-family: Arial;
+  font-variant: small-caps;
+}
